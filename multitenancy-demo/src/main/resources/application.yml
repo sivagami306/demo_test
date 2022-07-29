@@ -1,0 +1,21 @@
+tenants:
+  datasources:
+    PCS_DIRECTPAY:
+      jdbcUrl: jdbc:mysql://10.100.4.52:3306/PCS_DIRECTPAY?useSSL=false&amp;autoReconnect=true
+      driverClassName: com.mysql.cj.jdbc.Driver
+      username: arm_all
+      password: arm_all$654
+      
+    ARM_HERO:
+      jdbcUrl: jdbc:mysql://localhost:3306/ARM_HERO?verifyServerCertificate=false&useSSL=false&requireSSL=false
+      driverClassName: com.mysql.cj.jdbc.Driver
+      username: arm_all
+      password: arm_all$654
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: none
+    open-in-view: false
+#  flyway:
+#    enabled: false
