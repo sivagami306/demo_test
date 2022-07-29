@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class MultitenancyDemoApplication {
-//testpop
+//testpo
     public static void main(String[] args) {
         SpringApplication.run(MultitenancyDemoApplication.class, args);
     }
