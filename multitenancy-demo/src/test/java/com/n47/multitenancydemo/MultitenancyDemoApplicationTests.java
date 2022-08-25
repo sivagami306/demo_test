@@ -15,8 +15,6 @@ class MultitenancyDemoApplicationTests {
 	
 	@Test
 	void contextLoadsOne() {
-		
-		
 	}
 
 }
