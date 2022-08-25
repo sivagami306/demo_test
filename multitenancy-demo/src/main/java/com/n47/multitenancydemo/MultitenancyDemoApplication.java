@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class MultitenancyDemoApplication {
-//pop12
     public static void main(String[] args) {
         SpringApplication.run(MultitenancyDemoApplication.class, args);
     }
