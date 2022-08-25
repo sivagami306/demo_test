@@ -8,6 +8,15 @@ class MultitenancyDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
+		
+		
+	}
+	
+	
+	@Test
+	void contextLoadsOne() {
+		
+		
 	}
 
 }
